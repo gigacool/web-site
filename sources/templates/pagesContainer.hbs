@@ -1,0 +1,10 @@
+<aside>
+  <nav>
+    <ul>
+    {{#each pages}}
+      <li><a {{#if sub}}class="sub-link"{{/if}} href="/{{folders}}/{{name}}.html" title="{{name}}">{{name}}</a></li>
+    {{pages}}
+    </ul>
+  <nav>
+</aside>
+<div class="documentation-container">{{{content}}}</div>
