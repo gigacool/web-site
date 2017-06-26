@@ -23,6 +23,7 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
+    "eslint": "^4.0.0",
     "handlebars": "^4.0.10",
     "marked": "^0.3.6"
   }
