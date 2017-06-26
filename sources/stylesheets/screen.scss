@@ -1,0 +1,144 @@
+@import url( 'https://fonts.googleapis.com/css?family=Open+Sans');
+@import 'variables';
+@import 'normalize';
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+
+  small {
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    color: #343434;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
+header {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(56,56,56,0.1);
+  -moz-box-shadow: 0 1px 4px 0 rgba(56,56,56,0.1);
+  box-shadow: 0 1px 4px 0 rgba(56,56,56,0.1);
+  z-index: 1;
+  background-color: $main;
+
+  nav {
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    color: #343434;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li.li-distant {
+    float: right;
+  }
+
+  nav ul li a {
+    display: inline-block;
+    line-height: 56px;
+    height: 56px;
+    font-size: 1.6rem;
+    color: #383838;
+    text-decoration: none;
+    padding: 0;
+    margin-right: 20px;
+    border-bottom: solid 4px rgba(255,255,255,0);
+    transition: all 0.6s;
+  }
+
+  nav ul li a:hover {
+    color: #129ae1;
+    border-color: #129ae1;
+  }
+}
+
+#main-content {
+  display: block;
+  background-color: #f0f0f0;
+  color: #343434;
+  position: absolute;
+  top: 60px;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+
+  .main-content-container {
+    max-width: 1024px;
+    margin: 10px auto;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  border-bottom: solid 1px #cacaca;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+li,
+p {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+small {
+  font-size: 1.2rem;
+}
+// MEDIAS
+@import 'small';

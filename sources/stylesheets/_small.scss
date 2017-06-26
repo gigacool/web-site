@@ -1,0 +1,39 @@
+
+
+@media (max-width: 1024px){
+
+
+  footer{
+    position: relative;
+    display: block;
+  }
+
+  header {
+    position: relative;
+    display: block;
+  }
+
+  #main-content {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+
+    .main-content-container {
+      margin: 20px 40px;
+    }
+  }
+
+}
+
+@media all and (min-width:768px) and (max-width: 1024px){
+  html {
+    font-size: 100%;
+  }
+}
+@media all and (max-width: 768px){
+  html {
+    font-size: 150%;
+  }
+}
