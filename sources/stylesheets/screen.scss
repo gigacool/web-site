@@ -115,14 +115,15 @@ header {
     text-align: center;
     img {
       max-width: 240px;
-      // float:right;
-      // &:nth-of-type(odd) {
-      //   float:left;
-      // }
+      margin: 10px;
+      -webkit-box-shadow: 7px 7px 10px 0px rgba(85,68,68,1);
+      -moz-box-shadow: 7px 7px 10px 0px rgba(85,68,68,1);
+      box-shadow: 7px 7px 10px 0px rgba(85,68,68,1);
     }
     .header-img {
-      max-width: 1024px;
-      background-color:#bc0000;
+      margin: 0 0 20px 0;
+      max-width: 900px;
+      background-color:rgba(188,0,0,0.80);
       text-align: center;
     }
   }
