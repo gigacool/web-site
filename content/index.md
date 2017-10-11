@@ -1,46 +1,23 @@
 ---
- title: test title for the page
+ title: Nihao Issy
  template: single
 ---
 
-# Welcome
+# Association Nihao Issy
 
-I am Cédric HARTLAND, Ph.D. in computer science, husband and proud father. I currently work as a R&D software engineer - front-end architect.
+## Qui sommes nous ?
 
-You will not find much on these pages other than: my past research interests and publications, some personal projects and a few links I consider of interests. Feel free to contact as long as it is not about doing your programming home works.
+Nihao Issy est une association loi 1901 à but non lucratif. Cette association, ouverte au public, souhaite proposer une ouverture à la culture chinoiseau travers d'activités et évenements intergenerationels. Nous souhaitons proposer une image réelle de la vie des citoyens Chinois d'aujourd'hui.
 
-## Software Engineering
 
-Since September 2010, I evolve into the software engineering domain within a software editor company. I have been learning a lot about software engineering, methodologies and architectures. I have been working on various projects in exploitation part of our product.
+## Nos activités
 
-Such projects require evolving at different scales, from complex product long term range work to concrete simple short term tasks. Methodological approach tends to prove quite critical, especially when working with larger teams.
+### Des cours
 
-## Artificial Intelligence
-### Serenna neural network library
+Notre activité principale actuelle concerne des cours d'initiation à la langue chinoise: Eveil pour les enfants par tranches d'ages.
+Nous souhaitons également mettre en place des activités d'initiation à la caligraphie, peinture chinoise, danse traditionelle, taichi (en collaboration avec l'institut Quimetao à Paris) ou encore de l'initiation aux instruments traditionnels.
 
-I recently started yet another neural network library. The focus is given on usability, with a concise API and a “I hope” well designed architecture. Future developments involve a user friendly neural network manipulation graphical user interface and a model driven language description for networks handling. The library Is written in Java and is available from google code.
-### General AI
+### Des évennements et ateliers
 
-I have spent quite some time practicing various aspects of Artificial Intelligence. While the "artificial" intelligence is often far from being reached by computer programs, the actual intelligence put within is often quite remarkable.
-
-With time, I plan on sharing thoughts, learning resources and computer based projects with regard to typical or less typical artificial intelligence projects. Keep in touch.
-### Curriculum
-
-Even though I am not looking for a job, I am still open to challenges and opportunities. Feel free to consult my curriculum and contact me ([English], [Français]). I am open in terms of positions and locations around the world.
-
-professional experiences :
-
-* front-end architect at FuturMaster (since May 2017)
-* front-end technical leader at CAST (since June 2012)
-* Test driven technical leader at CAST (since January 2012)
-* Software engineer at CAST (since october 2010)
-* Temporary teaching activities for C2E (since 2010)
-* Assistant Professor, Robotics Program Coordinator at EFREI engineering school (2009-2010)
-* Teaching activities in engineering schools and universities
-* Attaché Temporaire à l'Enseignement et la Recherche (ATER) at IFIPS engineering school (2008-2009)
-* Temporary teaching activities at EFREI engineering school (2008-2009)
-* Moniteur de d'initiation à l'enseignement supérieur at Ecole Polytechnique (French Polytechnical School); Evolutionary Robotics Modex under the direction of Marc Schoenauer (2005 to 2008)
-* Member of the PASCAL Network (up to 2009)
-* Member of the Laboratory's equipment commission (2006 to 2008)
-* Supervision of science vulgarization activities (2006 to 2008)
-* internships and student jobs (1997 to 2005)
+* arts de la table et de la gastronomie
+*
