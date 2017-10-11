@@ -46,14 +46,14 @@ header {
   -moz-box-shadow: 0 1px 4px 0 rgba(56,56,56,0.1);
   box-shadow: 0 1px 4px 0 rgba(56,56,56,0.1);
   z-index: 1;
-  background-color: $main;
+  background-color: #bc0000;
 
   nav {
     position: relative;
     max-width: 1024px;
     margin: 0 auto;
     padding: 0;
-    color: #343434;
+    color: #fff;
   }
 
   nav ul {
@@ -74,7 +74,7 @@ header {
     line-height: 56px;
     height: 56px;
     font-size: 1.6rem;
-    color: #383838;
+    color: #fff;
     text-decoration: none;
     padding: 0;
     margin-right: 20px;
@@ -83,8 +83,13 @@ header {
   }
 
   nav ul li a:hover {
-    color: #129ae1;
-    border-color: #129ae1;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  nav ul li a:active {
+    color: #fff;
+    border-color: #fff;
   }
 }
 
@@ -103,7 +108,28 @@ header {
     max-width: 1024px;
     margin: 10px auto;
   }
+
+
+
+  .carousel {
+    text-align: center;
+    img {
+      max-width: 240px;
+      // float:right;
+      // &:nth-of-type(odd) {
+      //   float:left;
+      // }
+    }
+    .header-img {
+      max-width: 1024px;
+      background-color:#bc0000;
+      text-align: center;
+    }
+  }
+
 }
+
+
 
 h1,
 h2,

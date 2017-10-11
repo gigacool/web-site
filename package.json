@@ -4,6 +4,7 @@
   "description": "personal web site",
   "main": "index.js",
   "scripts": {
+    "grunt": "node_modules/.bin/grunt",
     "watch": "node_modules/.bin/grunt watch",
     "prod": "node_modules/.bin/grunt poduction",
     "test": "echo \"Error: no test specified\" && exit 1"
