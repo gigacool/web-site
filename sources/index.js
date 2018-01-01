@@ -4,7 +4,7 @@ const path = require('path');
 
 const Handlebars = require('Handlebars');
 
-const pageTemplate = Handlebars.compile(fs.readFileSync('./templates/index.hbs', 'utf-8'));
+const pageTemplate = Handlebars.compile(fs.readFileSync('./templates/mainContainer.hbs', 'utf-8'));
 
 console.log(pageTemplate)
 

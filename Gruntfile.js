@@ -1,7 +1,10 @@
+const generateSite = require('./sources/generateSite');
+
 module.exports = (grunt) => {
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.initConfig({
     sass: {
@@ -14,6 +17,20 @@ module.exports = (grunt) => {
         }
       }
     },
+    site: {
+      default:{
+        source:'sources/pages',
+        destination:'docs'
+      }
+    },
+    copy: {
+      main: {
+        files: [
+          // makes all src relative to cwd
+          {expand: true, cwd: 'sources/static', src: ['**'], dest: 'docs/'},
+        ],
+      },
+    },
     watch: {
       stylesheets: {
         files: ['sources/stylesheets/**/*.scss'],
@@ -25,5 +42,7 @@ module.exports = (grunt) => {
     }
   });
 
-  grunt.registerTask('default', ['sass']);
+  grunt.registerMultiTask('site', generateSite);
+
+  grunt.registerTask('default', ['sass', 'site', 'copy']);
 }
